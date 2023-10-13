@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="image/favicon1.jpg">
+
+    <!--Gallery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="js/gallery.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>TopScoree</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+
+    <!-- TOP NAV -->
+    <div class="top-nav" id="home">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-auto">
+                    <a href="mailto:topscore.cbe@gmail.com"> <i class='bx bxs-envelope'></i> topscore.cbe@gmail.com</a>
+                    <a href="tel:04222382728"> <i class='bx bxs-phone-call'></i> 0422-2382728</a>, &nbsp;&nbsp;
+                    <a href="tel:9942321377">99423 21377</a>
+                </div>
+                <div class="col-auto social-icons1">
+                    <a href="https://www.facebook.com/topscorecbe/" target="_blank"><img src="facebook.png" height="35px" width="50px" class="topfacebook" style="cursor: pointer;"></a>
+                    <a href="https://play.google.com/store/apps/details?id=com.relativeworm.connect" target="_blank"><img src="image/google1.png" height="30px" width="50px" style="cursor: pointer;"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BOTTOM NAV -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container">
+            <a href="index.html"><img class="imagenavigation" src="image/favicon1.jpg" height="50px" width="50px"></a>
+            <a class="navbar-brand imagenavigation1" href="index.html">TOPSCOREe<span class="dot"></span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto navtext">
+                    <li class="nav-item">
+                        <a class="nav-link navbartext" href="#home" >Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbartext" href="#about">About</a>
+                    </li>
+                    <li class="dropdown"><!-- nav-item-->
+                        <a href="#services" class="nav-link navbartext">Courses</a><!--nav-link navbartext -->
+                        <div class="dropdown-content">
+                            <a href="#medical">MEDICAL - NEET</a>
+                            <a href="#engineering">ENGINEERING - JEE</a>
+                            <a href="#foundation">FOUNDATION COURSE</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbartext" href="#results">Results</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbartext" href="#reviews">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbartext" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbartext" href="#team">Contact</a>
+                    </li>
+                </ul>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    class="btn btn-brand ms-lg-3 navtext">Apply for Admission</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SLIDER -->
+    <div class="owl-carousel owl-theme hero-slider">
+        <div class="slide slide1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center text-white">
+                        <h1 class="text-white text-uppercase display3-1">NEET / JEE</h1>
+                        <h3 class="display-3 my-4">Want to Crack<br />Neet/JEE 2024</h3>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand">Join Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide slide2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center text-white">
+                        <h1 class="text-white text-uppercase display3-1">NEET / JEE</h1>
+                        <h3 class="display-3 my-4">1 YEAR INTEGRATED COURSE<br />2 YEAR INTEGRATED COURSE</h3>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand">Join Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide slide3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center text-white">
+                        <h1 class="text-white text-uppercase display3-1">NEET / JEE</h1>
+                        <h3 class="display-3 my-4">NEET REPEATER COURSE</h3>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand">Join Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <!--HOME-->
+    <div class="container">
+        <div class="row">
+            <div class=""><!--py-5-->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="info-box">
+                            <div class="ms-4 center1">
+                                <h3>TopScore</h3>
+                                <p>TOPSCORE B.E/M.B.B.S. Entrance Training Programme started in May 1989 to coach +2 science students for Government of India entrance exams. It expanded with centers in Madurai (1995) and Coimbatore (1996) to serve students across Tamil Nadu.  </p>
+                                <p>Our expert teachers known for their dedicated and devoted service, carefully prepared materials, new study methods conduct of examination and proper evaluation have produced marvelous results. This is the secret of our success in TOPSCORE. Moreover, We pay personal attention to each and every student and guide him/her carefully thereby, providing the right kind of environment and help in the learning process.</p>
+                                <p>First, decide to join the best available coaching institute, because several Institutes offer coaching for the entrance examination. Plus two stage is a turning point in your career. The choice of your career must be determined very carefully by you. Join our Institute to get the Best out of our talented teachers to secure top marks in the entrance examination. We assure expert guidance to you to become an Engineer / Doctor. We are the only Institution who can predict the right questions which can appear in the entrance examination question paper. You are intelligent! You are one of the elite group of students!! You are going to make a mark!!!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="py-5">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="info-box">
+                                <!-- <img src="img/icon6.png" alt=""> -->
+                                <div class="ms-4 center1">
+                                    <h3>About Us</h3>
+                                    <p>The TOPSCORE , B.E/ M.B.B.S. Entrance Training programme was stared in may 1989, in response to the requisition of  parents of the outgoing +2 science students to coach their wards for the entrance examination conducted by the Government of India, leading to admission into the professional colleges in the state encouraged by the overwhelming appreciation and support the Institute enjoys from the public outside Chennai city, the Institute opened a centre at Madurai in 1995, and at Coimbatore in 1996 to catre the needs of students all over Tamil Nadu.</p>
+                                    <h6>Our Faculty:</h6>
+                                    <p>Topscore Academy           enrolls all well experienced           and
+                                        thorough professionals in the industry for more than 25 years,
+                                        and their humble efforts in nurturing the student one-to-one in
+                                        clearing their doubts and strengthening their fundamentals,
+                                        which results in excellent scoring.
+                                     
+                                     
+                                        There are nearly 60 experienced professionals with us across all
+                                        branches and extends their timely support.</p>
+                                    <h6> Personalized Care: </h6>
+                                    <p> Ultimately, students can get experience of individual tutoring by close
+
+                                        follow up with high intention, dedication, doubt clarifying interactive
+                                        sessions, perfect class co—ordinators, reasoning tests with immediate
+                                     
+                                        explanations, week—end cumulative tests, monthly tests, on-line model
+                                     
+                                        exams and many other programs which extracts the students ability
+                                        maximum to reach their goal. Also, we provide specialized counseling
+                                        between teachers, parents and management weekly, monthly and at
+                                     
+                                        the end of the program.</p>
+                                    <h6>Tamil Medium Students:</h6>
+                                    <p>TN Government had announced that NEET/IIT Entrance can be written
+                                        in both English & Tamil. Hence, our academy ensures that tamil medium
+                                     
+                                        students too get an exclusive coaching for NEET/IIT with our unique
+                                     
+                                        teaching methodology in tamil language too.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MILESTONE -->
+    <section id="milestone">
+        <div class="container">
+            <div class="row text-center justify-content-center gy-4">
+                <div class="col-lg-2 col-sm-6">
+                    <h1 class="display-4">25+</h1>
+                    <p class="mb-0">Experience </p>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <h1 class="display-4">60</h1>
+                    <p class="mb-0">Experienced Professional</p>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <h1 class="display-4">1000+</h1>
+                    <p class="mb-0">Students</p>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <h1 class="display-4">10+</h1>
+                    <p class="mb-0">Branches</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="intro">
+                        <h1>Courses</h1>
+                        <p class="mx-auto">Welcome to our coaching center, where we help you achieve your NEET and JEE dreams! With expert faculty, personalized attention, and comprehensive study materials, we'll guide you towards success. Join us now for a promising future!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MEDICAL - NEET -->
+
+            <div class="row">
+                <div class="col-md-1 col-lg-2"></div>
+                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-8">
+                    <article id="medical" class="blog-post">
+                        <img src="img/project5.jpg" alt="">
+                        <span class="text-center d-flex justify-content-center align-items-center">NEET</span>
+                        <div class="content">
+                            <h2>MEDICAL - NEET</h2>
+                            <p><i class='bx bxs-star'></i>&nbsp;&nbsp;1 YEAR INTEGRATED COURSE</p>
+                            <p><i class='bx bxs-star'></i>&nbsp;&nbsp;2 YEAR INTEGRATED COURSE</p>
+                            <p><i class='bx bxs-star'></i>&nbsp;&nbsp;NEET REPEATER COURSE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                            <p><i class='bx bxs-star'></i>&nbsp;&nbsp;NEER CRASH COURSE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-1 col-lg-2"></div>
+
+
+                <!-- ENGINEERING - JEE -->
+
+
+                <div class="col-md-1 col-lg-2"></div>
+                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-8">
+                    <article id="engineering" class="blog-post">
+                        <img src="img/project4.jpg" alt="">
+                        <span>JEE</span>
+                        <div class="content">                          
+                            <h2>ENGINEERING - JEE</h2>
+                            <p><i class='bx bxs-star'></i>&nbsp;&nbsp;1 YEAR INTEGRATED COURSE</p>
+                            <p><i class='bx bxs-star'></i>&nbsp;&nbsp;2 YEAR INTEGRATED COURSE</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-1 col-lg-2"></div>
+
+
+                <!-- FOUNDATION COURSE -->
+
+
+                <div class="col-md-1 col-lg-2"></div>
+                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-8">
+                    <article id="foundation" class="blog-post">
+                        <img src="img/project3.jpg" alt="">
+                        <span>FOUNDATION COURSE</span>
+                        <div class="content">                          
+                            <h2>FOUNDATION COURSE</h2>
+                            <p><i class='bx bxs-star'></i>&nbsp;&nbsp;8TH STANDARD</p>
+                            <p><i class='bx bxs-star'></i>&nbsp;&nbsp;9TH STANDARD</p>
+                            <p>&nbsp;&nbsp;<i class='bx bxs-star'></i>&nbsp;&nbsp;10TH STANDARD</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-1 col-lg-2"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="results">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="intro">
+                        <h1>Results</h1>
+                        <p>Introducing "Our Trendsetters" - a remarkable group shaping the future and setting new standards in their fields. These influential individuals are innovators, visionaries, and change-makers who inspire excellence. Explore their extraordinary stories and achievements that drive innovation and shape a brighter future.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row results-col">
+                <h4>ENGINEERING TREND SETTERS</h4>
+                <div>
+                    <img src="result/img1.jpg">
+                </div>
+                <h4>ENGINEERING TOPPERS</h4>
+                <div>
+                    <img src="result/img2.jpg">
+                </div>
+                <h4>MEDICAL TREND SETTERS</h4>
+                <div>
+                    <img src="result/img3.jpg">
+                </div>
+                <div>
+                    <img src="result/img4.jpg">
+                </div>
+                <div>
+                    <img src="result/img5.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light" id="reviews">
+        <div class="owl-theme owl-carousel reviews-slider container py-5">
+            <div class="review">
+                <div class="person">
+                    <img src="image/ARJUN.GIF" alt="">
+                    <h5> ARJUN  </h5>
+                    <!-- <small>Market Development Manager</small> -->
+                </div>
+                <h3>I feel greatly elated when I realise that our coaching centre was mainly responsible for my success at the entrance examination.
+                    The discipline on your aspect and regularity on our aspect,both inter-twined to bring out a wonderful miracle ie. SELECTION.
+                    It is popularly said,He who does not have a hope to win has already lost!
+                    Yo gave me the "Hope" and I did my best!</h3>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <!-- <i class="bx bxs-star-half"></i> -->
+                </div>
+                <i class='bx bxs-quote-alt-left'></i>
+            </div>
+            <div class="review">
+                <div class="person">
+                    <img src="image/ARUN.GIF" alt="">
+                    <h5>ARUN </h5>
+                    <!-- <small>Market Development Manager</small> -->
+                </div>
+                <h3>My sincere thanks to the coaching centre for excellent coaching which made me to secure highmarks.Excellently prepared booklets of your Institute helped me a lot and I am really proud of your Institution.
+                    Now I am doing my medical course in GMKMMC,SALEM, again I thank the teachers of the Institute for my performance in the Entrance examination.</h3>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <!-- <i class="bx bxs-star-half"></i> -->
+                </div>
+                <i class='bx bxs-quote-alt-left'></i>
+            </div>
+            <div class="review">
+                <div class="person">
+                    <img src="image/ARUNA.GIF" alt="">
+                    <h5>ARUNA</h5>
+                </div>
+                <h3>I would like to express my sincere thanks to the coaching center for the remarkable coaching which proved to be an invaluable aid while appearing for the entrance examination.
+                    I certainly believe that, the Institute by way of excellent teaching providing suitably prepared study materials and conducting daily test helped to achieve my dream.
+                    Now I have joined Coimbatore Medical College.
+                    I would just like to say to my juniors that is the surest way to success in TNPCEE.</h3>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <i class='bx bxs-quote-alt-left'></i>
+            </div>
+            <div class="review">
+                <div class="person">
+                    <img src="image/DEEPU.GIF" alt="">
+                    <h5>DEEPU</h5>
+                </div>
+                <h3>I wish to express my sincere"THANKS" for your dedicated service to humanity you have realy proved that,when the going gets TOUGH,THE TOUGH gets going.
+                    Through your intensive training and priceless inspections,I was able to clear the entrance exams and safely placed in the steady track of my academic career.
+                    With ever-lasting remembrances.</h3>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <i class='bx bxs-quote-alt-left'></i>
+            </div>
+            <div class="review">
+                <div class="person">
+                    <img src="image/HARI.GIF" alt="">
+                    <h5>HARI</h5>
+                </div>
+                <h3>I am pleased to inform you that I have joined PSG Tech., Coimbatore this was possible only because of the excellent coaching I had from the teaching faculty of your Institute.Regular unit tests and immediate correction and evaluation of papers were the plus factors.
+                    Your experienced staff were able to anticipate the likely questions and prepared us accordingly. I am pround to have beeen a student of your Institute.
+                    Please convey my thanks to the the teachers.</h3>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <i class='bx bxs-quote-alt-left'></i>
+            </div>
+            <div class="review">
+                <div class="person">
+                    <img src="image/KEERTHI.GIF" alt="">
+                    <h5>KEERTHI</h5>
+                </div>
+                <h3>I have great pleasure in expressing my gratitude to the teachers of your institute. Their vigorous training and methodical coaching have contributed greatly to my successs in obtaining admission into MEDICAL COLLEGE.They have motivated us positively to face the examinations with confidence.
+                </h3>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <i class='bx bxs-quote-alt-left'></i>
+            </div>
+            <div class="review">
+                <div class="person">
+                    <img src="image/LAVANYA.GIF" alt="">
+                    <h5>LAVANYA</h5>
+                </div>
+                <h3>I write this in sincere appreciation of the impeccable coaching given by your Institute. Regular tests and prompt valuation were the pep factors. The focus on objective type of questions in Physics and Chemistry made us feel through in the subjects. If not for your guidance,I would not have secured admission into COIMBATORE MEDICAL COLLEGE.
+                    Kindly convey my regards and gratitude to the dedicated teachers of your Institute.
+                    </h3>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <i class='bx bxs-quote-alt-left'></i>
+            </div>
+            <div class="review">
+                <div class="person">
+                    <img src="image/MOHAMEED.GIF" alt="">
+                    <h5>MOHAMEED</h5>
+                </div>
+                <h3>I extend a warm greatings to you.
+                    I would like to share my happiness with you, when I got selected at the entrance.
+                    The training at our centre sometimes made me to weep out of despair,but now I cry with laughter and happiness after grappling the "most envious profession".
+                    I feel proud to say that,I was a student of this Center.</h3>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <i class='bx bxs-quote-alt-left'></i>
+            </div>
+            <div class="review">
+                <div class="person">
+                    <img src="image/PRATHIBA.GIF" alt="">
+                    <h5>PRATHIBA</h5>
+                </div>
+                <h3>I extend my heartiest greetings to you.
+                    Here I would like to thanks some of my finest movements of success.
+                    My previous disappoints simply vanished like fumes,after having chosen the right institute.
+                    With best teachers I was able to develope my skill in appearing for the competitive examination and the materials supplied will stand the test of time.
+                    Hats off to you,Sirs,</h3>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <i class='bx bxs-quote-alt-left'></i>
+            </div>
+            <div class="review">
+                <div class="person">
+                    <img src="image/VIGNESH.GIF" alt="">
+                    <h5>VIGNESH</h5>
+                </div>
+                <h3>I wish to express my sincere thanks to the Institute for my grand success at TNPCEE'98. My ambition to join the professional course  was possible because of your standard coaching and the efficient way in which the classes were conducted. The disciplined atmosphere in your Institute enabled me to develop concentration in my subjects of study.
+                    I thank the teaching faculty of your institution for their encouragement and coaching. </h3>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <i class='bx bxs-quote-alt-left'></i>
+            </div>
+            <div class="review">
+                <div class="person">
+                    <img src="image/VINOD.GIF" alt="">
+                    <h5>VINOD</h5>
+                </div>
+                <h3>I am indeed extremely happy to secured a seat in the professional course of study. The coaching, I received from your Institute was of a high order. Coaching is a conducive and disciplined atmosphere followed by regular tests gave confidence to me.
+                    Your choice of teachers after a rigorous selection process in the various subjects has been our fortune,. Their disciplined methods of teaching contributed to our sucesss in the TNPCEE'98.
+                    Please convey my grateful thanks to the dedicted band of your teachers.
+                    </h3>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <i class='bx bxs-quote-alt-left'></i>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="gallery-section">
+            <div class="inner-width">
+              <h1>Gallery</h1>
+              <div class="gallery">
+                <a href="img/student.jpeg" class="imagee">
+                  <img src="img/student.jpeg" alt="">
+                </a>
+                <a href="img/student1.jpeg" class="imagee">
+                  <img src="img/student1.jpeg" alt="">
+                </a>
+                <a href="img/student2.jpeg" class="imagee">
+                  <img src="img/student2.jpeg" alt="">
+                </a>
+                <a href="img/student4.jpeg" class="imagee">
+                  <img src="img/student4.jpeg" alt="">
+                </a>
+
+                <a href="gallery/gallery1.jpeg" class="imagee">
+                    <img src="gallery/gallery1.jpeg" alt="">
+                </a>
+                <a href="gallery/gallery2.jpeg" class="imagee">
+                    <img src="gallery/gallery2.jpeg" alt="">
+                </a>
+                <a href="gallery/gallery3.jpeg" class="imagee">
+                    <img src="gallery/gallery3.jpeg" alt="">
+                </a>
+                <a href="gallery/gallery4.jpeg" class="imagee">
+                    <img src="gallery/gallery4.jpeg" alt="">
+                </a>
+                <a href="gallery/gallery16.jpeg" class="imagee">
+                    <img src="gallery/gallery16.jpeg" alt="">
+                </a>
+                <a href="gallery/gallery5.jpeg" class="imagee">
+                    <img src="gallery/gallery5.jpeg" alt="">
+                </a>
+                <a href="gallery/gallery6.jpeg" class="imagee">
+                    <img src="gallery/gallery6.jpeg" alt="">
+                </a>
+                <a href="gallery/gallery7.jpeg" class="imagee">
+                    <img src="gallery/gallery7.jpeg" alt="">
+                </a>
+                <a href="gallery/gallery8.jpeg" class="imagee">
+                    <img src="gallery/gallery8.jpeg" alt="">
+                </a>
+                <a href="gallery/gallery9.jpeg" class="imagee">
+                    <img src="gallery/gallery9.jpeg" alt="">
+                </a>
+                <a href="gallery/gallery17.jpeg" class="imagee">
+                    <img src="gallery/gallery17.jpeg" alt="">
+                </a>
+                <a href="gallery/gallery10.jpeg" class="imagee">
+                    <img src="gallery/gallery10.jpeg" alt="">
+                </a>
+                <a href="gallery/gallery11.jpeg" class="imagee">
+                    <img src="gallery/gallery11.jpeg" alt="">
+                </a>
+                <a href="gallery/gallery12.jpeg" class="imagee">
+                    <img src="gallery/gallery12.jpeg" alt="">
+                </a>
+                <a href="gallery/gallery13.jpeg" class="imagee">
+                    <img src="gallery/gallery13.jpeg" alt="">
+                </a>
+                <a href="gallery/gallery14.jpeg" class="imagee">
+                    <img src="gallery/gallery15.jpeg" alt="">
+                </a>
+                <a href="gallery/gallery15.jpeg" class="imagee">
+                    <img src="gallery/gallery15.jpeg" alt="">
+                </a>
+                <a href="gallery/gallery18.jpeg" class="imagee">
+                    <img src="gallery/gallery18.jpeg" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+    </section>
+
+
+    <section id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="intro">
+                        <h1>Contact Us</h1>
+                        <h3>Have Some Questions?</h3>
+                        <p>Thank you for interest in our service.Please reach us form below Phone or e-mail and we<br> will get back to you promptly regarding your request.</p>
+                    </div>
+                </div>
+                <!-- <h3>Request a Call Back</h3> -->
+                <div class="col-md-1 col-2"></div>
+                <div class="col-md-5 col-10 navbar-brand3"><!--col-12-->
+                    <h4 class="navbar-brand">PHONE</h4>
+                    <div class="navbar-brand2">
+                        <i class='bx bxs-phone-call'></i><a href="tel:04222382728">0422-2382728  ,  </a><a href="tel:9942321377">99423 21377</a>
+                    </div>
+                    <h4 class="navbar-brand">MAIL</h4>
+                    <div class="navbar-brand2">
+                        <i class='bx bxs-envelope'></i><a href="mailto:topscore.cbe@gmail.com">topscore.cbe@gmail.com</a>
+                    </div>
+                    <h4 class="navbar-brand">ADDRESS</h4>
+                    <div class="navbar-brand2">
+                        <i class='bx bx-map'></i><span>244-F, LGB Complex,</span><br><span class="addressspace">Townhall</span><br><span class="addressspace">Coimbatore</span>
+                    </div>
+                </div>
+                    <div class="col-md-6 col-12">
+                        <form class="p-lg-5 col-12 row" id="contactform" action="contact.php" name="contactform" method="post">
+                            <h1>Get in Touch</h1>
+                            <div class="col-lg-12">
+                                <label for="userName" class="form-label">Name</label>
+                                <input type="text" name="name" class="form-control" placeholder="John Doe" id="userName"
+                                    aria-describedby="emailHelp">
+                            </div>
+                            <div class="col-lg-12">
+                                <label for="userName" class="form-label">Phone</label>
+                                <input type="text" name="phone" class="form-control" placeholder="1234567890" id="userName"
+                                    aria-describedby="emailHelp">
+                            </div>
+                            <div class="col-12">
+                                <label for="userName" class="form-label">Email address</label>
+                                <input type="email" name="email" class="form-control" placeholder="Johndoe@example.com"
+                                    id="userName" aria-describedby="emailHelp">
+                            </div>
+                            <div class="col-12">
+                                <label for="exampleInputEmail1" class="form-label">Enter Message</label>
+                                <textarea name="comments" placeholder="This is looking great and nice."
+                                    class="form-control" id="" rows="4"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-brand contactsubmit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- <div class="col-md-1"></div> -->
+                </div>
+        </div>                 
+    </section>
+
+
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-5 col-sm-5 col-md-5 col-xs-5 footerlink1">
+                        <h4 class="navbar-brand">TOPSCOREe</h4>
+                        <p>TOPSCORE is a renowned NEET and JEE exam coaching center that has been guiding aspiring medical and engineering students since its inception. Established with the vision of imparting quality education, our coaching programs are designed to provide comprehensive preparation for the highly competitive NEET (National Eligibility cum Entrance Test) and JEE (Joint Entrance Examination) exams in India.</p>
+                        <div class="col-auto social-icons">
+                            <a href="https://www.facebook.com/topscorecbe/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                            <a href="https://play.google.com/store/apps/details?id=com.relativeworm.connect" target="_blank"><i class='bx bxl-play-store'></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-4 col-md-4 col-xs-4 footerlink footerlink1">
+                        <h4 class="navbar-brand">QUICK LINKS</h4>
+                        <ul class="navbar-nav ms-auto navtext">
+                            <li class="nav-item">
+                                <a class="nav-link navbartext" href="#home" >Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbartext" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbartext" href="#services">Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbartext" href="#results">Results</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbartext" href="#reviews">Testimonials</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbartext" href="#gallery">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbartext" href="#team">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-3 col-md-3 col-xs-3">
+                        <h4 class="navbar-brand">ADDRESS</h4>
+                        <div class="navbar-brand2">
+                            <i class='bx bxs-phone-call'></i><a href="tel:04222382728">0422-2382728  ,  </a><a href="tel:9942321377">99423 21377</a>
+                        </div>
+                        <div class="navbar-brand2">
+                            <i class='bx bxs-envelope'></i><a href="mailto:topscore.cbe@gmail.com">topscore.cbe@gmail.com</a>
+                        </div>
+                        <div class="navbar-brand2">
+                            <i class='bx bx-map'></i><span>244-F, LGB Complex,</span><br><span class="addressspace">Townhall</span><br><span class="addressspace">Coimbatore</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-center d-flex justify-content-center align-items-center">
+            <p class="mb-0">Copyright TopScore 2023. All rights Reserved</p>
+        </div>
+    </footer>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-body p-0">
+                    <div class="container-fluid">
+                        <div class="row gy-4">
+                            <div class="col-lg-4 col-sm-12 bg-cover"
+                                style="background-image: url(img/c2.jpg); min-height:300px;">
+                                <div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <form class="p-lg-5 col-12 row g-3" action="contact.php" name="contactform" method="post">
+                                    <div>
+                                        <h1>Apply For Admission</h1>
+                                        <p>We will get back to you as soon as possible</p>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <label for="userName" class="form-label">Name</label>
+                                        <input type="text" name="name" class="form-control" placeholder="John Doe" id="userName"
+                                            aria-describedby="emailHelp">
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <label for="userName" class="form-label">Phone</label>
+                                        <input type="text" name="phone" class="form-control" placeholder="1234567890" id="userName"
+                                            aria-describedby="emailHelp">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="userName" class="form-label">Email address</label>
+                                        <input type="email" name="email" class="form-control" placeholder="Johndoe@example.com"
+                                            id="userName" aria-describedby="emailHelp">
+                                    </div>
+                                       <div class="col-12">
+                                        <label for="exampleInputEmail1" class="form-label">Enter Message</label>
+                                        <textarea name="comments" placeholder="This is looking great and nice."
+                                            class="form-control" id="" rows="4"></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-brand">Send Message</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/app.js"></script>
+    <!-- <script src="js/gallery.js"></script> -->
+</body>
+
+</html>
